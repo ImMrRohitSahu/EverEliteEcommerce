@@ -1,6 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import route from "../routes/route.json"
 import { Link } from "react-router-dom";
+import about from "/src/assets/about.png"
+import aboutgirl from "/src/assets/aboutgirl.png"
 
 const About = () => {
   return (
@@ -15,7 +17,7 @@ const About = () => {
           className="d-flex justify-content-center align-items-center me-md-3 me-0 mb-md-0 mb-4"
         >
           <div className="about-img-div">
-            <img src="src/assets/about.png" />
+            <img src={about} />
           </div>
         </Col>
         <Col
@@ -80,7 +82,7 @@ const About = () => {
               </button>
             </div>
             <div className="girl-image">
-              <img src="src/assets/aboutgirl.png" />
+              <img src={aboutgirl} />
             </div>
           </div>
         </Col>
