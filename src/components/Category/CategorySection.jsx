@@ -1,5 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import clothcategory from "/src/assets/clothcategory.jpg"
+import mobilecategory from "/src/assets/mobilecategory.jpg"
+import laptopcategory from "/src/assets/laptopcategory.jpg"
+import homecategory from "/src/assets/homecategory.jpg"
 
 const CategorySection = () => {
   return (
@@ -10,7 +14,7 @@ const CategorySection = () => {
       <Row className="my-3">
         <Col xs={12} md={6} className="my-3">
           <div
-            style={{ background: `url("src/assets/clothcategory.jpg")` }}
+            style={{ background: `url(${clothcategory})` }}
             className="w-100 category-card"
           >
             <Link className="link w-100 h-100  d-flex justify-content-center align-items-center">
@@ -22,7 +26,7 @@ const CategorySection = () => {
         </Col>
         <Col xs={12} md={6} className="my-3">
           <div
-            style={{ background: `url("src/assets/mobilecategory.jpg")` }}
+            style={{ background: `url(${mobilecategory})` }}
             className="w-100 category-card"
           >
             <Link className="link w-100 h-100  d-flex justify-content-center align-items-center">
@@ -34,7 +38,7 @@ const CategorySection = () => {
         </Col>
         <Col xs={12} md={6} className="my-3">
           <div
-            style={{ background: `url("src/assets/laptopcategory.jpg")` }}
+            style={{ background: `url(${laptopcategory})` }}
             className="w-100 category-card"
           >
             <Link className="link w-100 h-100  d-flex justify-content-center align-items-center">
@@ -46,7 +50,7 @@ const CategorySection = () => {
         </Col>
         <Col xs={12} md={6} className="my-3">
           <div
-            style={{ background: `url("src/assets/homecategory.jpg")` }}
+            style={{ background: `url(${homecategory})` }}
             className="w-100 category-card"
           >
             <Link className="link w-100 h-100  d-flex justify-content-center align-items-center">
