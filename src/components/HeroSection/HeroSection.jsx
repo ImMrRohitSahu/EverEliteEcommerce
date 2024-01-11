@@ -1,14 +1,19 @@
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
+import imageOne from "/src/assets/imageOne.jpg"
+import imageTwo from "/src/assets/imageTwo.jpg"
+import imageThree from "/src/assets/imageThree.jpg"
+import imageFour from "/src/assets/imageFour.jpg"
+import imageFive from "/src/assets/imageFive.jpg"
 
 const HeroSection = () => {
   const [imagePath, setImagePath] = useState(0);
   const imageArr = [
-    "src/assets/imageOne.jpg",
-    "src/assets/imageTwo.jpg",
-    "src/assets/imageThree.jpg",
-    "src/assets/imageFour.jpg",
-    "src/assets/imageFive.jpg",
+    imageOne,
+    imageTwo,
+    imageThree,
+    imageFour,
+    imageFive,
   ];
 
   useEffect(() => {
