@@ -1,4 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
+import offerclothone from "/src/assets/offerclothone.jpg"
+import offerelectronictwo from "/src/assets/offerelectronictwo.jpg"
+import offerhome from "/src/assets/offerhome.jpg"
 
 const OfferSection = () => {
   return (
@@ -7,7 +10,7 @@ const OfferSection = () => {
         <Col md={4} xs={12}>
           <div
             className="offer-card"
-            style={{ background: `url("src/assets/offerclothone.jpg")` }}
+            style={{ background: `url(${offerclothone})` }}
           >
             <div className="fade-effect">
               <div className="offer-content">
@@ -26,7 +29,7 @@ const OfferSection = () => {
         <Col md={4} xs={12}>
           <div
             className="offer-card"
-            style={{ background: `url("src/assets/offerelectronictwo.jpg")` }}
+            style={{ background: `url(${offerelectronictwo})` }}
           >
             <div className="fade-effect">
               <div className="offer-content">
@@ -45,7 +48,7 @@ const OfferSection = () => {
         <Col md={4} xs={12}>
           <div
             className="offer-card"
-            style={{ background: `url("src/assets/offerhome.jpg")` }}
+            style={{ background: `url(${offerhome})` }}
           >
             <div className="fade-effect">
               <div className="offer-content">
