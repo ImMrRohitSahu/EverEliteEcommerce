@@ -1,0 +1,10 @@
+{
+    "HOME" : "/",
+    "PRODUCTS" : "products",
+    "LOGIN" : "user-login",
+    "SIGNUP" : "user-signup",
+    "ABOUT" : "about-us",
+    "CONTACT" : "contact-us",
+    "CART" : "cart",
+    "ERROR" : "error"
+}
