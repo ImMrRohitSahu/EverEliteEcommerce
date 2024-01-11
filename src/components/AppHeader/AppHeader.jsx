@@ -100,7 +100,7 @@ const AppHeader = () => {
 
             <div className="m-0 p-0 cart-div h-100 d-flex align-items-center">
               <NavLink to={route.CART} className="link">
-                <img src="src/assets/cart.gif" width={30}/>
+                <img src={cartImage} width={30}/>
                 <span className="cart-value">{cartItemCount}</span>
               </NavLink>
             </div>
