@@ -8,6 +8,7 @@ import {
   removeItem,
   removeAllItems,
 } from "../features/cartSlice/cartSlice";
+import deleteImage from "/src/assets/delete.gif"
 
 const Cart = () => {
   const [totalProducts, setTotalProducts] = useState(0);
@@ -102,7 +103,7 @@ const Cart = () => {
                   className="text-center d-flex justify-content-center align-items-center"
                 >
                   <img
-                    src="src/assets/delete.gif"
+                    src={deleteImage}
                     width={18}
                     className="cart-delete"
                     onClick={() => removeAllProductHandler()}
@@ -178,7 +179,7 @@ const Cart = () => {
                       className="text-center d-flex justify-content-center align-items-center"
                     >
                       <img
-                        src="src/assets/delete.gif"
+                        src={deleteImage}
                         width={20}
                         className="cart-delete"
                         onClick={() => removeProductHandler(item.id)}
