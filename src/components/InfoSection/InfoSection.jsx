@@ -1,4 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
+import shippingImage from "/src/assets/free-shipping.png"
+import deliveryImage from "/src/assets/carton-box.png"
+import refund from "/src/assets/refund.png"
 
 const InfoSection = () => {
   return (
@@ -12,7 +15,7 @@ const InfoSection = () => {
           md={4}
           className="d-flex justify-content-center align-items-center my-3"
         >
-          <img src="src/assets/free-shipping.png" width="30px" />
+          <img src={shippingImage} width="30px" />
           <div className="info-content ms-2">
             <h6 className="m-0 text fw-bold">FREE SHIPPING</h6>
             <p className="m-0 text-small fw-bold">
@@ -25,7 +28,7 @@ const InfoSection = () => {
           md={4}
           className="d-flex justify-content-center align-items-center my-3"
         >
-          <img src="src/assets/carton-box.png" width="30px" />
+          <img src={deliveryImage} width="30px" />
           <div className="info-content ms-2">
             <h6 className="m-0 text fw-bold">30 Days Return</h6>
             <p className="m-0 text-small fw-bold">
@@ -38,7 +41,7 @@ const InfoSection = () => {
           md={4}
           className="d-flex justify-content-center align-items-center my-3 mt-md-3 md-4"
         >
-          <img src="src/assets/free-shipping.png" width="30px" />
+          <img src={refund} width="30px" />
           <div className="info-content ms-2">
             <h6 className="m-0 text fw-bold">Payment Secure</h6>
             <p className="m-0 text-small fw-bold">
